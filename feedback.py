@@ -17,9 +17,8 @@ pkl_path = Path(__file__).parents[1] / 'mood_data.csv'
 tz_india = pytz.timezone('Asia/Kolkata')
 
 def capture_emotion(mood_capture_lst):
-    with open(pkl_path,'a', newline='') as f:
+    with open(pkl_path,'w', newline='') as f:
         placeholder = st.empty()
-        st.write(" ")
         with placeholder.success(mood_capture_lst[0]):
             writer = csv.writer(f)
             writer.writerow(mood_capture_lst)
