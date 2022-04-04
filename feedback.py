@@ -21,6 +21,7 @@ def capture_emotion(mood_capture_lst):
         placeholder = st.empty()
         with placeholder.success(mood_capture_lst[0]):
             writer = csv.writer(f)
+            st.write(mood_capture_lst)
             writer.writerow(mood_capture_lst)
             time.sleep(2)
             placeholder.empty()
