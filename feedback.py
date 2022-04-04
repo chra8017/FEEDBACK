@@ -10,10 +10,14 @@ import csv
 import time
 from datetime import datetime    
 import pytz    
+from pathlib import Path
+
+pkl_path = Path(__file__).parents[1] / 'mood_data.csv'
+
 tz_india = pytz.timezone('Asia/Kolkata')
 
 def capture_emotion(mood_capture_lst):
-    with open('https://github.com/chra8017/FEEDBACK/blob/main/mood_data.csv','a', newline='') as f:
+    with open(pkl_path,'a', newline='') as f:
         placeholder = st.empty()
         st.write(" ")
         with placeholder.success(mood_capture_lst[0]):
