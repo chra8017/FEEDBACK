@@ -9,23 +9,31 @@ import streamlit as st
 import csv
 import time
 from datetime import datetime    
-import pytz    
-from pathlib import Path
-
-pkl_path = Path(__file__).parents[1] / 'mood_data.csv'
-
+import pytz   
+import pandas as pd 
 tz_india = pytz.timezone('Asia/Kolkata')
 
 def capture_emotion(mood_capture_lst):
-    with open(pkl_path,'w', newline='') as f:
+    with open('mood_data.csv','a', newline='') as f:
         placeholder = st.empty()
+        st.write(" ")
         with placeholder.success(mood_capture_lst[0]):
             writer = csv.writer(f)
-            st.write(mood_capture_lst)
             writer.writerow(mood_capture_lst)
             time.sleep(2)
             placeholder.empty()
-
+            
+def capture_write_emotion(mood_capture_lst):
+    placeholder = st.empty()
+    with placeholder.success(mood_capture_lst[0]):
+        log_df = pd.DataFrame(columns=['Mood','Timestamp'])
+        log_df.loc[:,'Mood']=[mood_capture_lst[0]]
+        log_df.loc[:,'Timestamp']=[mood_capture_lst[1]]
+        st.write(log_df.head())
+        log_df.to_csv(f'mood_data_{mood_capture_lst[1].replace(":","_")}.csv',index=False)
+        time.sleep(2)
+        placeholder.empty()
+    
 # st.set_page_config(layout="wide")
 
 # hide_menu_style = """
@@ -114,14 +122,14 @@ if __name__ == "__main__":
     
     if sad_emoji.button("😩"):
         datetime_IN = datetime.now(tz_india)
-        capture_emotion(["Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S")])
+        capture_write_emotion(["Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S")])
         
     if happy_emoji.button("🙂"):
         datetime_IN = datetime.now(tz_india)
-        capture_emotion(["Ok",datetime_IN.strftime("%Y-%m-%d %H:%M:%S")])
+        capture_write_emotion(["Ok",datetime_IN.strftime("%Y-%m-%d %H:%M:%S")])
     
     if super_start_emoji.button("🤩"):
         datetime_IN = datetime.now(tz_india)
-        capture_emotion(["Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S")])
+        capture_write_emotion(["Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S")])
         
     
