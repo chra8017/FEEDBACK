@@ -16,7 +16,9 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 from pathlib import Path
 
-pkl_path = Path(__file__).parents[1] / 'hotel-pos-4301021f74a6.json'
+pkl_path ='hotel-pos-4301021f74a6.json'
+
+#Path(__file__).parents[1] / 
 
 def google_connect(mood_capture_lst):
     placeholder = st.empty()
