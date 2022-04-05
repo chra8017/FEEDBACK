@@ -22,6 +22,7 @@ def google_connect(mood_capture_lst):
     placeholder = st.empty()
     with placeholder.success(mood_capture_lst[0]):
         scope = ['https://www.googleapis.com/auth/drive']
+        st.write(pkl_path)
         cred = ServiceAccountCredentials.from_json_keyfile_name(pkl_path,scope)
         gc = gspread.authorize(cred)
         wks = gc.open("Feedback - Streamlit").worksheet('log')
