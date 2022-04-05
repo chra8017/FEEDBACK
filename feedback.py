@@ -13,8 +13,10 @@ import pytz
 import pandas as pd 
 tz_india = pytz.timezone('Asia/Kolkata')
 
+pkl_path = Path(__file__).parents[1]/'mood_data.csv'
+
 def capture_emotion(mood_capture_lst):
-    with open('mood_data.csv','a', newline='') as f:
+    with open(pkl_path,'a', newline='') as f:
         placeholder = st.empty()
         st.write(" ")
         with placeholder.success(mood_capture_lst[0]):
@@ -122,14 +124,16 @@ if __name__ == "__main__":
     
     if sad_emoji.button("😩"):
         datetime_IN = datetime.now(tz_india)
-        capture_write_emotion(["Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S")])
+        #capture_write_emotion(["Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S")])
+        capture_emotion(["Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S")])
         
     if happy_emoji.button("🙂"):
         datetime_IN = datetime.now(tz_india)
-        capture_write_emotion(["Ok",datetime_IN.strftime("%Y-%m-%d %H:%M:%S")])
-    
+        #capture_write_emotion(["Ok",datetime_IN.strftime("%Y-%m-%d %H:%M:%S")])
+        capture_emotion(["Ok",datetime_IN.strftime("%Y-%m-%d %H:%M:%S")])
+        
     if super_start_emoji.button("🤩"):
         datetime_IN = datetime.now(tz_india)
-        capture_write_emotion(["Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S")])
-        
+        #capture_write_emotion(["Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S")])
+        capture_emotion(["Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S")])
     
