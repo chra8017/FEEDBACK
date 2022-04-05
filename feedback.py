@@ -29,7 +29,7 @@ def capture_write_emotion(mood_capture_lst):
         log_df = pd.DataFrame(columns=['Mood','Timestamp'])
         log_df.loc[:,'Mood']=[mood_capture_lst[0]]
         log_df.loc[:,'Timestamp']=[mood_capture_lst[1]]
-        st.write(log_df.head())
+        #st.write(log_df.head())
         log_df.to_csv(f'mood_data_{mood_capture_lst[1].replace(":","_")}.csv',index=False)
         time.sleep(2)
         placeholder.empty()
