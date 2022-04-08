@@ -15,9 +15,10 @@ tz_india = pytz.timezone('Asia/Kolkata')
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 from pathlib import Path
-import pyautogui
+#import pyautogui
 import random
-# from streamlit.script_runner import StopException, RerunException
+#from streamlit import caching
+# from streamlit.ScriptRunner import RerunException
 
 pkl_path = 'hotel-pos-4301021f74a6.json'
 
@@ -34,12 +35,12 @@ if __name__ == "__main__":
     
     st.set_page_config(layout="wide")
 
-    hide_menu_style = """
-        <style>
-        #MainMenu {visibility: hidden;}
-        </style>
-        """
-    st.markdown(hide_menu_style, unsafe_allow_html=True)
+    # hide_menu_style = """
+    #     <style>
+    #     #MainMenu {visibility: hidden;}
+    #     </style>
+    #     """
+    # st.markdown(hide_menu_style, unsafe_allow_html=True)
     
     # st.write('<style>div.Widget.row-widget.stRadio > div{flex-direction:row;}</style>', unsafe_allow_html=True)
     # st_autorefresh(interval=2000,key="fizzbuzzcounter")
@@ -163,8 +164,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",1,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_2:
                 title_st_h4 ="""<div>
@@ -174,8 +177,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",2,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_3:
                 title_st_h4 ="""<div>
@@ -185,8 +190,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",3,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5") 
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_4:
                 title_st_h4 ="""<div>
@@ -196,8 +203,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",4,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5") 
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
                 
         elif (happy_inner or st.session_state.happy_button_clicked_level_2):
             
@@ -222,8 +231,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",1,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_2:
                 title_st_h4 ="""<div>
@@ -233,8 +244,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",2,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_3:
                 title_st_h4 ="""<div>
@@ -244,8 +257,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",3,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5") 
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_4:
                 title_st_h4 ="""<div>
@@ -255,8 +270,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",4,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
         
         elif (excited_inner or st.session_state.excited_button_clicked_level_2):
             
@@ -281,8 +298,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",1,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_2:
                 title_st_h4 ="""<div>
@@ -292,8 +311,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",2,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_3:
                 title_st_h4 ="""<div>
@@ -303,8 +324,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",3,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5") 
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_4:
                 title_st_h4 ="""<div>
@@ -314,8 +337,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",4,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
     
 ############################## Happy Button ###################################
     
@@ -355,8 +380,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",1,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_2:
                 title_st_h4 ="""<div>
@@ -366,8 +393,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",2,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_3:
                 title_st_h4 ="""<div>
@@ -377,8 +406,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",3,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5") 
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_4:
                 title_st_h4 ="""<div>
@@ -388,8 +419,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",4,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
                 
         elif (happy_inner or st.session_state.happy_button_clicked_level_2):
             
@@ -413,8 +446,11 @@ if __name__ == "__main__":
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",1,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
+                
             
             elif option_2:
                 title_st_h4 ="""<div>
@@ -424,8 +460,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",2,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_3:
                 title_st_h4 ="""<div>
@@ -435,8 +473,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",3,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5") 
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_4:
                 title_st_h4 ="""<div>
@@ -446,8 +486,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",4,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
         
         elif (excited_inner or st.session_state.excited_button_clicked_level_2):
             
@@ -471,8 +513,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",1,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_2:
                 title_st_h4 ="""<div>
@@ -482,8 +526,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",2,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_3:
                 title_st_h4 ="""<div>
@@ -493,8 +539,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",3,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5") 
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_4:
                 title_st_h4 ="""<div>
@@ -504,8 +552,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",4,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
     
 ############################ super excited ####################################
     
@@ -544,8 +594,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",1,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_2:
                 title_st_h4 ="""<div>
@@ -555,8 +607,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",2,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_3:
                 title_st_h4 ="""<div>
@@ -566,8 +620,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",3,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5") 
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_4:
                 title_st_h4 ="""<div>
@@ -577,8 +633,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",4,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
                 
         
         elif (happy_inner or st.session_state.happy_button_clicked_level_2):
@@ -603,8 +661,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",1,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_2:
                 title_st_h4 ="""<div>
@@ -614,8 +674,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",2,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_3:
                 title_st_h4 ="""<div>
@@ -625,8 +687,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",3,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5") 
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_4:
                 title_st_h4 ="""<div>
@@ -636,8 +700,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",4,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
         
         elif (excited_inner or st.session_state.excited_button_clicked_level_2):
             
@@ -661,8 +727,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",1,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_2:
                 title_st_h4 ="""<div>
@@ -672,8 +740,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",2,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_3:
                 title_st_h4 ="""<div>
@@ -683,8 +753,10 @@ if __name__ == "__main__":
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",3,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5") 
+
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
             
             elif option_4:
                 title_st_h4 ="""<div>
@@ -694,6 +766,8 @@ if __name__ == "__main__":
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",4,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                #del st.session_state['sad_button_clicked_level_2']
-                pyautogui.hotkey("ctrl","F5")
+                
+                for key in st.session_state.keys():
+                    del st.session_state[key]
+                raise st.experimental_rerun()
     
