@@ -17,7 +17,6 @@ from oauth2client.service_account import ServiceAccountCredentials
 from pathlib import Path
 import pyautogui
 import random
-import os
 # from streamlit.script_runner import StopException, RerunException
 
 pkl_path = 'hotel-pos-4301021f74a6.json'
