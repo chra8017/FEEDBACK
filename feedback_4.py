@@ -35,12 +35,12 @@ if __name__ == "__main__":
     
     st.set_page_config(layout="wide")
 
-    # hide_menu_style = """
-    #     <style>
-    #     #MainMenu {visibility: hidden;}
-    #     </style>
-    #     """
-    # st.markdown(hide_menu_style, unsafe_allow_html=True)
+    hide_menu_style = """
+         <style>
+         #MainMenu {visibility: hidden;}
+         </style>
+         """
+    st.markdown(hide_menu_style, unsafe_allow_html=True)
     
     # st.write('<style>div.Widget.row-widget.stRadio > div{flex-direction:row;}</style>', unsafe_allow_html=True)
     # st_autorefresh(interval=2000,key="fizzbuzzcounter")
