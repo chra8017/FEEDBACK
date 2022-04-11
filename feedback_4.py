@@ -1,5 +1,12 @@
 # -*- coding: utf-8 -*-
 """
+Created on Mon Apr 11 11:30:12 2022
+
+@author: chra8017
+"""
+
+# -*- coding: utf-8 -*-
+"""
 Created on Mon Apr  4 14:56:05 2022
 
 @author: chra8017
@@ -145,7 +152,7 @@ if __name__ == "__main__":
             #google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
             
             title_st_h4 ="""<div>
-              <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">From 1 to 4, how much did you enjoy what you did today?</h4>
+              <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">From 1 to 4 scale, how much did you enjoy what you did today? (1 lowest & 4 highest)</h4>
               </div>"""
             
             st.markdown(title_st_h4,unsafe_allow_html=True)
@@ -215,7 +222,7 @@ if __name__ == "__main__":
         elif (happy_inner or st.session_state.happy_button_clicked_level_2):
             
             title_st_h4 ="""<div>
-              <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">From 1 to 4, how much did you enjoy what you did today?</h3>
+              <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">From 1 to 4 scale, how much did you enjoy what you did today? (1 lowest & 4 highest)</h3>
               </div>"""
             
             st.markdown(title_st_h4,unsafe_allow_html=True)
@@ -286,7 +293,7 @@ if __name__ == "__main__":
         elif (excited_inner or st.session_state.excited_button_clicked_level_2):
             
             title_st_h4 ="""<div>
-              <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">From 1 to 4, how much did you enjoy what you did today?</h3>
+              <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">From 1 to 4 scale, how much did you enjoy what you did today? (1 lowest & 4 highest)</h3>
               </div>"""
             
             st.markdown(title_st_h4,unsafe_allow_html=True)
@@ -372,7 +379,7 @@ if __name__ == "__main__":
         if (inner_sad or st.session_state.sad_button_clicked_level_2):
             
             title_st_h4 ="""<div>
-              <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">From 1 to 4, how much did you enjoy what you did today?</h3>
+              <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">From 1 to 4 scale, how much did you enjoy what you did today? (1 lowest & 4 highest)</h3>
               </div>"""
             
             st.markdown(title_st_h4,unsafe_allow_html=True)
@@ -443,7 +450,7 @@ if __name__ == "__main__":
         elif (happy_inner or st.session_state.happy_button_clicked_level_2):
             
             title_st_h4 ="""<div>
-              <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">From 1 to 4, how much did you enjoy what you did today?</h3>
+              <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">From 1 to 4 scale, how much did you enjoy what you did today? (1 lowest & 4 highest)</h3>
               </div>"""
             
             st.markdown(title_st_h4,unsafe_allow_html=True)
@@ -514,7 +521,7 @@ if __name__ == "__main__":
         elif (excited_inner or st.session_state.excited_button_clicked_level_2):
             
             title_st_h4 ="""<div>
-              <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">From 1 to 4, how much did you enjoy what you did today?</h3>
+              <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">From 1 to 4 scale, how much did you enjoy what you did today? (1 lowest & 4 highest)</h3>
               </div>"""
             
             st.markdown(title_st_h4,unsafe_allow_html=True)
@@ -599,7 +606,7 @@ if __name__ == "__main__":
         if (inner_sad or st.session_state.sad_button_clicked_level_2):
             
             title_st_h4 ="""<div>
-              <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">From 1 to 4, how much did you enjoy what you did today?</h3>
+              <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">From 1 to 4 scale, how much did you enjoy what you did today? (1 lowest & 4 highest)</h3>
               </div>"""
             
             st.markdown(title_st_h4,unsafe_allow_html=True)
@@ -670,7 +677,7 @@ if __name__ == "__main__":
         elif (happy_inner or st.session_state.happy_button_clicked_level_2):
             
             title_st_h4 ="""<div>
-              <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">From 1 to 4, how much did you enjoy what you did today?</h3>
+              <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">From 1 to 4 scale, how much did you enjoy what you did today? (1 lowest & 4 highest)</h3>
               </div>"""
             
             st.markdown(title_st_h4,unsafe_allow_html=True)
@@ -740,7 +747,7 @@ if __name__ == "__main__":
         elif (excited_inner or st.session_state.excited_button_clicked_level_2):
             
             title_st_h4 ="""<div>
-              <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">From 1 to 4, how much did you enjoy what you did today?</h3>
+              <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">From 1 to 4 scale, how much did you enjoy what you did today? (1 lowest & 4 highest)</h3>
               </div>"""
             
             st.markdown(title_st_h4,unsafe_allow_html=True)
@@ -806,4 +813,4 @@ if __name__ == "__main__":
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
-    
+   
