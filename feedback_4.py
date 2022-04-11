@@ -175,10 +175,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",2,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -188,10 +189,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",3,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -201,10 +203,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",4,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -229,10 +232,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",1,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -242,10 +246,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",2,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -255,10 +260,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",3,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -268,10 +274,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",4,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -296,10 +303,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",1,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -309,10 +317,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",2,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -322,10 +331,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",3,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -335,10 +345,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",4,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -378,10 +389,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",1,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -391,10 +403,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",2,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -404,10 +417,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",3,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -417,10 +431,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",4,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -444,10 +459,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",1,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -458,10 +474,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",2,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -471,10 +488,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",3,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -484,10 +502,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",4,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -511,10 +530,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",1,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -524,10 +544,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",2,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -537,10 +558,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",3,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -550,10 +572,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",4,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -592,10 +615,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",1,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -605,10 +629,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",2,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -618,10 +643,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",3,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -631,10 +657,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Bad",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",4,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -659,10 +686,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",1,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -672,10 +700,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",2,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -685,10 +714,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",3,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -698,10 +728,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Happy",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",4,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -725,10 +756,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",1,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -738,10 +770,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",2,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -751,10 +784,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",3,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()
+
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
@@ -764,10 +798,11 @@ if __name__ == "__main__":
                   <h4 style="color:#FF0000;margin-top:60px;font-size:40px;text-align:center;font-weight: bold;font-family:comic sans ms">Thank you🙂</h3>
                   </div>"""
                 st.markdown(title_st_h4,unsafe_allow_html=True)
+                st.balloons()
                 google_connect(["Q1","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q2","Excited",datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
                 google_connect(["Q3",4,datetime_IN.strftime("%Y-%m-%d %H:%M:%S"),rand_num])
-                st.balloons()     
+     
                 for key in st.session_state.keys():
                     del st.session_state[key]
                 raise st.experimental_rerun()
