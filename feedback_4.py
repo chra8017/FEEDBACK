@@ -1,23 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Apr 11 11:30:12 2022
-
-@author: chra8017
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Apr  4 14:56:05 2022
-
-@author: chra8017
-"""
-
 import streamlit as st
-import csv
 import time
 from datetime import datetime    
 import pytz   
-import pandas as pd 
+#import pandas as pd 
 tz_india = pytz.timezone('Asia/Kolkata')
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
